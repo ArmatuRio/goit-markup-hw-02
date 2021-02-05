@@ -1,0 +1,155 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212121;
+} */
+:root {
+  --primary-text-color: #757575;
+  --tittle-text-color: #212121;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+/* hero */
+.hero {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Кнопка заказать услугу */
+.hero-studio {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-decoration: none;
+}
+
+/* Section  */
+.section-heading {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-title {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.section .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title-group {
+  color: #212121;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.section-command .text-group {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* Портфолио */
+
+/* Кнопки фильтров */
+.btn-filter {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-btn {
+  border: none;
+}
+
+.section-work {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
